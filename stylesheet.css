@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo Script');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+
+body {
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.upper {
+    background-color:rgb(21, 179, 21);
+    height: 5rem;
+}
+
+.middle {
+    background-color:white;
+    height: 800em;
+}
+
+.lower {
+    background-color:rgb(2, 14, 2);
+    height: 25rem;
+}
+
+
+/* ---Header */
+
+header{
+      /* border: 1px solid red; */
+
+    background-color:rgb(21, 179, 21);
+    color: white;
+    font-size: large;
+    width: 70%;
+    height: 5rem;
+    margin-left: 15%;
+
+}
+
+header div.left p{
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 30px;
+    margin-top: 10px;
+    float: left;
+    text-align:left;
+}
+
+header div.right{
+/* border: 1px solid red; */
+width: 50%;
+height: 30px;
+margin-top: 10px;
+float: right;
+text-align:center;
+}
+
+
+header div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  header div li.right-nav {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+  header div li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+  
+  header div li a:hover {
+    color: orangered;
+  }
+
+  /* --Nav--*/
+
+  nav{
+        /* border: 1px solid red; */
+
+    background-color:white;
+    color: white;
+    font-size: large;
+    width: 70%;
+    height: 5rem;
+    margin-left: 15%;
+    position: relative;
+    top: -40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(240, 242, 243);
+}
+
+nav div.left{
+    /* border: 1px solid red; */
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 50%;
+    padding-top: 20px;
+
+}
+    
+
+nav div.center{
+    /* border: 1px solid red; */
+    width: 55%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+nav div ul {
+    list-style-type: none;
+    padding-top: 8px;
+    overflow: hidden;
+  }
+  
+  nav div.center li {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+  nav div li a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 35px;
+  }
+  
+  nav div li a:hover {
+    color: orangered;
+  }
+
+  nav div.right{
+    /* border: 1px solid red; */
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+section.banner{
+      /* border: 1px solid red; */
+    background-color:white;
+    color: black;
+    font-size: large;
+    width: 70%;
+    height: 800rem;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+section.banner div.left{
+    /* border: 1px solid red; */
+    width: 40%;
+    text-align: left;
+    height: 700px;
+    float: left;
+    padding-top: 120px;
+
+}
+
+section.banner div.left p#p1{
+  /* border: 1px solid red; */
+  font-family: 'Oleo Script', serif;
+  color: orangered;
+  font-size: 1.2rem;
+  margin-bottom: 1%;
+}
+
+section.banner div.left p#p2{
+  /* border: 1px solid red; */
+  color: grey;
+  font-size: 1.2rem;
+  margin: 0%;
+
+}
+
+section.banner div.left h1{
+  /* border: 1px solid red; */
+  font-family: 'Inter', serif,!important;
+  color: black;
+  font-size: 2.7rem;
+  margin-top: 3%;
+}
+
+section.banner div.left button{
+  /* border: 1px solid red; */
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+section.banner div.left button#b1{
+  /* border: 1px solid red; */
+  background-color: orangered;
+  color: white;
+  margin-top: 3%;
+}
+
+section.banner div.right{
+    border: 1px solid red; 
+    width: 55%;
+    text-align: center;
+    height: 700px;
+    float: right;
+    padding-top: 120px;
+}
